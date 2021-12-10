@@ -37,5 +37,5 @@ void refreshShift() {
   digitalWrite(latchPin, HIGH);
 }
 void loop() {
-  setBin(0b1100);
+  // Your code here
 }
