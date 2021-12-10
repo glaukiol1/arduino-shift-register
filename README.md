@@ -17,13 +17,16 @@ Use a Shift Register (the exact model: 74hc595) with Arduino. The code includes 
 
 The code also includes the **shiftWrite(int,int)**, **setBin(byte)**, **refreshShift()**.
 
-## refreshShift()
+
+## Functions
+
+### refreshShift()
 Refreshes the shift register with the updated bytes (**byte bin** variable).
 
-## setBin(byte)
+### setBin(byte)
 Set a new binary value from 0b00000000 to 0b10000000 (inclusive).
 
-## shiftWrite(int,int)
+### shiftWrite(int,int)
 **Param 1**: Pin on the shift register (0-7). Layout of shift register pins:
 <br/>
 - Pin 0: Pin 7 on the bottom of the shift register.
